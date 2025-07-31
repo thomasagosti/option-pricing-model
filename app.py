@@ -30,13 +30,13 @@ def plot_heatmap(black_scholes_func, spot_range, vol_range, T, r, K):
             put_prices[i, j] = put
 
     fig_call, ax1 = plt.subplots()
-    sns.heatmap(call_prices, xticklabels=np.round(spot_range, 2), yticklabels=np.round(vol_range, 2), ax=ax1, cmap="YlGnBu")
+    sns.heatmap(call_prices, xticklabels=np.round(spot_range, 2), yticklabels=np.round(vol_range, 2), ax=ax1, cmap="RdYIGn")
     ax1.set_title("Call Option Prices")
     ax1.set_xlabel("Spot Price")
     ax1.set_ylabel("Volatility")
 
     fig_put, ax2 = plt.subplots()
-    sns.heatmap(put_prices, xticklabels=np.round(spot_range, 2), yticklabels=np.round(vol_range, 2), ax=ax2, cmap="YlOrBr")
+    sns.heatmap(put_prices, xticklabels=np.round(spot_range, 2), yticklabels=np.round(vol_range, 2), ax=ax2, cmap="RdYIGn")
     ax2.set_title("Put Option Prices")
     ax2.set_xlabel("Spot Price")
     ax2.set_ylabel("Volatility")
