@@ -1,7 +1,8 @@
-from streamlist as st
+import streamlist as st
 from pricing_model import black_scholes
 st.set_page_config(page_title="Black-Scholes Option Pricer", layout="centered")
-st.title("Black-Scholes Option Pricing Model")
+st.title("Black-Scholes Opt
+ion Pricing Model")
 S=st.number_input("Spot Price (S)", value=100.0)
 K = st.number_input("Strike Price (K)", value=100.0)
 T = st.number_input("Time to Maturity (T, in years)", value=1.0)
