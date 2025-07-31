@@ -1,4 +1,4 @@
-from streamlist as st
+import streamlist as st
 from pricing_model import black_scholes
 st.set_page_config(page_title="Black-Scholes Option Pricer", layout="centered")
 st.title("Black-Scholes Option Pricing Model")
