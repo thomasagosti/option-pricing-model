@@ -1,6 +1,6 @@
 streamlit==1.35.0
-numpy==1.26.4
-scipy==1.13.1
-matplotlib==3.8.4
-pandas==2.2.2
-seaborn==0.13.2
+numpy>=1.26,<1.27
+scipy>=1.13,<1.14
+matplotlib>=3.8,<3.9
+pandas>=2.2,<2.3
+seaborn>=0.13,<0.14
