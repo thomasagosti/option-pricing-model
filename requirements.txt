@@ -1,3 +1,5 @@
 streamlit
 numpy
 scipy
+
+Add requirements for Streamlit app
