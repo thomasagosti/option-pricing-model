@@ -1,5 +1,5 @@
 import streamlit as st
-from main.pricing_model import black_scholes
+from pricing_model import black_scholes
 
 st.set_page_config(page_title="Black-Scholes Option Pricer", layout="centered")
 
